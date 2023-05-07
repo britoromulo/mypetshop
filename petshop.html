@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+        <title>Meu Site de Pets</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: #EEE9DA;
+                font-family: Arial, sans-serif;
+            }
+            body.dark-mode {
+            background-color: #333; /* Cor de fundo para modo noturno */
+             color: #fff; /* Cor do texto para modo noturno */
+             } 
+
+            header {
+                background-color: #16213E;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+    
+            nav {
+                background-color: #16213E;
+                color: white;
+                padding: 10px;
+                text-align: center;
+            }
+    
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: inline-block;
+            }
+    
+            nav li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+    
+            nav a {
+                color: white;
+                text-decoration: none;
+            }
+    
+            .quadro {
+                border: 5px solid #0F3460;
+                padding: 10px;
+                display: inline-block;
+                width: 20%;
+                margin: 10px;
+                text-align: center;
+                background-color: #EEE9DA;
+            }
+            .quadro.dark-mode {border: 5px solid #0F3460;
+                padding: 10px;
+                display: inline-block;
+                width: 20%;
+                margin: 10px;
+                text-align: center;
+                background-color: #333;
+            }
+    
+            .quadro img {
+                display: block;
+                margin: auto;
+                max-width: 100%;
+            }
+    
+            .quadro h2 {
+                margin-top: 0;
+            }
+    
+            .info {
+                padding: 20px;
+                text-align: center;
+            }
+    
+            .info h2 {
+                margin-top: 0;
+                margin-bottom: 20px;
+            }
+            
+    
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>PETZZZ</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="petshop.html">Home</a></li>
+                <li><a href="loja.html">Loja</a></li>
+                <li><a href="sobrenos.html">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="info">
+            <h2>Bem-vindo ao Meu Site de Pets!</h2>
+            <p>Seja bem-vindo à Petz, o lugar perfeito para cuidar do seu pet com muito amor e carinho! Aqui, você encontra tudo o que precisa para manter seu animalzinho saudável e feliz, desde alimentos e acessórios até serviços de banho e tosa. Nossa equipe de profissionais está sempre pronta para atender você e seu pet com toda atenção e cuidado que eles merecem. Venha nos conhecer e descubra o que a Petz pode fazer pelo seu melhor amigo!</p>
+        </div>
+        <div class="quadro">
+            <h2>Snow</h2>
+            <h3>Snow é um adorável husky siberiano, muito brincalhão ele só quer seu coração.</h3>
+            <img src="https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg" alt="cachorro fofo" style="max-width: 100%;">
+          </div>
+          
+        <div class="quadro">
+            <h2>Rex</h2>
+            <h3>Rex é um pastor alemão muito fiel e protetor da sua família.</h3>
+            <img src="https://images.pexels.com/photos/1904105/pexels-photo-1904105.jpeg" alt="cachorro fofo">
+        </div>
+        <div class="quadro">
+            <h2>Milo</h2>
+            <h3>Milo é um gatinho brincalhão que adora caçar bolinhas de papel.</h3>
+            <img src="https://images.pexels.com/photos/57416/cat-sweet-kitty-animals-57416.jpeg" alt="gato fofo">
+        </div>
+        <div class="info">
+            <label class="switch">
+                <input type="checkbox" id="toggleMode">
+                <span class="slider round"></span>
+              </label>
+              <script src="java.js"></script>
